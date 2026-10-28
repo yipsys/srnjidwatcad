@@ -48,25 +48,7 @@ The website is planned to run on Cloudflare, with compilation handled by a separ
 | Browser-game integrations | Planned; formats and target games to be confirmed |
 | Multiplayer, bhop timer, checkpoints and SSJ route gates | Not implemented |
 
-## Windows desktop prototype
 
-Open BhopBuilder.exe from the project folder. It launches the editor in an Edge app window and provides a local CS:Source compiler interface. Keep the accompanying files beside it. See [desktop instructions](desktop/README.md) for requirements and limitations.
-
-## Open the editor in your browser
-
-You do not need to download this repository, install Node.js or run a local server to use the hosted editor. Once this repository's GitHub Pages deployment is live, open its Pages website link and start building directly in your desktop browser.
-
-The site address normally follows this format:
-
-```text
-https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/
-```
-
-This is an example address; replace it with the repository owner's actual Pages URL. The repository owner can find the live link under Settings -> Pages. A GitHub repository's Code page is not the editor itself.
-
-The hosted editor provides the building tools, assets, painting, editable project saves and browser playtest. Drafts are stored in your browser; use Save to download backups. Open can load an existing `.bhop.json` project from your computer.
-
-Hosting the editor on Pages does not enable Counter-Strike export or compilation. Those features remain planned.
 
 ## Optional: run it locally
 
